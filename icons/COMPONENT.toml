@@ -5,6 +5,6 @@ repo = "https://github.com/AaryanSinghChauhan09/SigmaOS-themes"
 engine = "theme_icons"
 category = "Desktop/UI"
 language = "rust"
-inspirations = "Linux Mint"
+inspirations = "SigmaOS"
 visibility = "public"
 depends_on = ["sigmaos-theme-core"]
