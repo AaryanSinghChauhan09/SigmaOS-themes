@@ -1,0 +1,18 @@
+[component]
+name = "SigmaOS-themes"
+description = "Unified theming system: icons, GTK3, desktop themes, and design tokens"
+repo = "https://github.com/AaryanSinghChauhan09/SigmaOS-themes"
+engine = "theming"
+category = "Core Infrastructure"
+language = "rust"
+visibility = "public"
+depends_on = []
+provides = ["icons", "gtk3-themes", "desktop-themes", "design-tokens"]
+
+[contract]
+provides = ["icons", "gtk3-themes", "desktop-themes", "design-tokens"]
+depends_on = []
+
+[maturity]
+status = "stable"
+version = "1.0.0"
