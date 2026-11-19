@@ -1,4 +1,4 @@
-use sigmaos_theme::{Config, ThemeComponent, Component};
+use sigmaos_theme_core::{Config, ThemeComponent, Component};
 fn main() {
     env_logger::init();
     let mut c = ThemeComponent::new(Config::default());

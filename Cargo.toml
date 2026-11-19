@@ -1,5 +1,6 @@
 [workspace]
 members = ["core", "icons", "gtk3", "desktop"]
+resolver = "2"
 
 [workspace.package]
 version = "1.0.0"

@@ -2,9 +2,9 @@ use crate::config::Config;
 use crate::error::{ComponentError, Result};
 #[derive(Debug, Clone, PartialEq)]
 pub enum ServiceStatus { Stopped, Running, Failed(String) }
-pub struct Service { config: Config, status: ServiceStatus }
+pub struct Service { _config: Config, status: ServiceStatus }
 impl Service {
-    pub fn new(config: Config) -> Self { Self { config, status: ServiceStatus::Stopped } }
+    pub fn new(config: Config) -> Self { Self { _config: config, status: ServiceStatus::Stopped } }
     pub fn start(&mut self) -> Result<()> {
         if self.status == ServiceStatus::Running { return Err(ComponentError::Service("already running".to_string())); }
         self.status = ServiceStatus::Running; Ok(())
