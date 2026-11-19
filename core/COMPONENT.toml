@@ -1,0 +1,10 @@
+[component]
+name = "sigmaos-theme-core"
+description = "SigmaOS core theming engine, design tokens & color palettes"
+repo = "https://github.com/AaryanSinghChauhan09/SigmaOS-themes"
+engine = "theme_core"
+category = "Desktop/UI"
+language = "rust"
+inspirations = "Omarchy Linux"
+visibility = "public"
+depends_on = []

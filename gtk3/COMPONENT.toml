@@ -1,0 +1,10 @@
+[component]
+name = "sigmaos-theme-gtk3"
+description = "SigmaOS GTK3 theme engine"
+repo = "https://github.com/AaryanSinghChauhan09/SigmaOS-themes"
+engine = "theme_gtk3"
+category = "Desktop/UI"
+language = "rust"
+inspirations = "Omarchy Linux"
+visibility = "public"
+depends_on = ["sigmaos-theme-core"]
