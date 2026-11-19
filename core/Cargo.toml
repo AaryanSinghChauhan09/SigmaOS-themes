@@ -1,14 +1,18 @@
 [package]
-name = "sigmaos-theme"
+name = "sigmaos-theme-core"
 version = "0.1.0"
 edition = "2021"
 authors = ["SigmaOS Team"]
 license = "MIT OR Apache-2.0"
-description = "SigmaOS theme - Visual theme engine, accents, fonts, icons"
+description = "SigmaOS core theming engine, design tokens & color palettes"
+
+[lib]
+name = "sigmaos_theme_core"
+path = "lib.rs"
 
 [[bin]]
-name = "sigmaos-theme"
-path = "src/main.rs"
+name = "sigmaos-theme-core"
+path = "main.rs"
 
 [dependencies]
 anyhow = "1.0"
